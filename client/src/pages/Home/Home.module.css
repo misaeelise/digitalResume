@@ -1,0 +1,70 @@
+.container {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden !important;
+}
+
+.video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+
+  top: 0rem;
+  left: 0;
+}
+.introName {
+  left: 8vw;
+  top: 40vh;
+  font-size: 5rem;
+  color: #db00b6;
+  position: absolute;
+  font-family: "Righteous", Ropa Sans, Oxygen, Ubuntu, Cantarell, sans-serif;
+}
+.aroundName {
+  left: 8vw;
+  top: 40vh;
+  padding: 0.75em;
+  background-color: yellow;
+}
+
+.intro {
+  width: 100vw !important;
+  margin: 0;
+  bottom: 1vh;
+  padding: 0;
+  /* text-overflow: ellipsis; */
+  font-size: 1.75rem;
+  color: black;
+  position: relative;
+  overflow: wrap;
+  line-height: 2rem;
+  font-family: "Roboto Mono", Ropa Sans, Oxygen, Ubuntu, Cantarell, sans-serif;
+}
+
+.marquee {
+  /* margin: 0 auto; */
+  white-space: nowrap;
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+  padding: 0.5em;
+  background-color: #db00b6;
+  bottom: 1vh;
+  margin: 0;
+  left: 0;
+}
+
+.marquee span {
+  display: inline-block;
+  padding-left: 100%;
+  animation: marquee 25s linear infinite;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-100%, 0);
+  }
+}

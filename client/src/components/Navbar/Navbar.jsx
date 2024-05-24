@@ -31,7 +31,15 @@ const Navbar = () => {
   // }
 
   return (
-    <Grid container sx={{ width: "100vw", height: "20vh" }}>
+    <Grid
+      container
+      sx={{
+        width: "100vw",
+        height: "30vh",
+        backgroundColor: "transparent",
+        position: "absolute",
+      }}
+    >
       <Stack
         direction="row"
         alignItems={"flex-start"}
@@ -56,6 +64,7 @@ const Navbar = () => {
             sx={{
               width: "10vw",
               fontSize: "1.25rem",
+              fontFamily: "Roboto Mono",
             }}
           >
             römer.
@@ -76,6 +85,8 @@ const Navbar = () => {
               textAlign: "center",
               height: "20vh",
               fontSize: "1.25rem",
+              cursor: "pointer",
+              fontFamily: "Roboto Mono",
             }}
           >
             About
@@ -87,6 +98,8 @@ const Navbar = () => {
               textAlign: "center",
               height: "20vh",
               fontSize: "1.25rem",
+              cursor: "pointer",
+              fontFamily: "Roboto Mono",
             }}
           >
             Works
@@ -98,6 +111,8 @@ const Navbar = () => {
               textAlign: "center",
               height: "20vh",
               fontSize: "1.25rem",
+              cursor: "pointer",
+              fontFamily: "Roboto Mono",
             }}
           >
             Contact
