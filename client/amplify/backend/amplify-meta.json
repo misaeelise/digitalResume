@@ -1,0 +1,15 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-digitalresume-dev-82e80-authRole",
+      "UnauthRoleArn": "arn:aws:iam::323814785154:role/amplify-digitalresume-dev-82e80-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::323814785154:role/amplify-digitalresume-dev-82e80-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-digitalresume-dev-82e80-deployment",
+      "UnauthRoleName": "amplify-digitalresume-dev-82e80-unauthRole",
+      "StackName": "amplify-digitalresume-dev-82e80",
+      "StackId": "arn:aws:cloudformation:us-east-1:323814785154:stack/amplify-digitalresume-dev-82e80/99487a10-191b-11ef-a50c-0affe3e65551",
+      "AmplifyAppId": "d28nt1w3nitk99"
+    }
+  }
+}
